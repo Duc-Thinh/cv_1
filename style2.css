@@ -1,0 +1,47 @@
+#img1{
+    object-fit: cover;
+    width: 100%;
+    height: 590px;
+    object-position: 0 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    bottom: 60px;
+}
+
+.front-line > span {
+    background-color: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid 2.5px rgba(255, 255, 255, 0.822);
+    cursor: pointer;
+}
+
+#line > div {
+    display: flex;
+    width: 70px;
+    position: relative;
+}
+
+#btn_1 {
+    background-color: white;
+    box-shadow: 4px 6px 5px black;
+}
+
+#btn_2{
+    float: left;
+    position: absolute;
+    right: 0px;
+    box-shadow: 5px 5px 5px black;
+}

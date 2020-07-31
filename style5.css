@@ -11,8 +11,8 @@
 }
 
 .img-4{
-    width: 500px;  
-    transition: all 0.8s; 
+    width: 500px;
+    transition: all 0.8s;
 }
 
 .article-item-normal {
@@ -81,19 +81,16 @@
 .lazy-1:hover .i-5 {
     transform: scale(1.1);
     transition: all 0.8s;
-    
 }
 
 .lazy-2:hover .i-6 {
     transform: scale(1.1);
     transition: all 0.8s;
-    
 }
 
 .lazy-3:hover .i-7 {
     transform: scale(1.1);
     transition: all 0.8s;
-    
 }
 
 .glide__arrow {
@@ -102,7 +99,7 @@
     align-items: center !important;
     background: rgba(255, 255, 255, .8) !important;
     border-color: #86590d !important;
-    color: #86590d !important;    
+    color: #86590d !important;
     width: 30px !important;
     height: 50px !important;
     font-size: 20px !important;
@@ -155,7 +152,7 @@ body {
 .input-email {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -178,10 +175,10 @@ body {
     border-radius: 4px;
 }
 
-.input-submit {     
-    outline: 0;     
-    outline-style: none;     
-    outline-width: 0; 
+.input-submit {
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
 }
 
 .btn-submit {
@@ -226,9 +223,9 @@ body {
 }
 
 .menu{
-    position: absolute; 
+    position: absolute;
     left: -40px;
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 li a{
@@ -241,7 +238,7 @@ li a{
 
 .submenu {
     position: absolute;
-    top: 10px;  
+    top: 10px;
     padding-left: 150px;
 }
 

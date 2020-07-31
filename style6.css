@@ -1,0 +1,142 @@
+@media screen and (max-width: 375px) {
+    .header {
+        width: 375px;
+        position: relative;
+    }
+
+    #logo > div{
+        width: 120px;
+        height: 100px;
+        margin-left: 0;
+        background-position: -40px -30px;
+        transform: translateX(-20px) scale(0.6);
+    }
+    #logo {
+        width: 20px;
+        margin: 0;
+    }
+
+    .textHeader {
+        padding: 0;
+        position: absolute;
+        top: 30px;
+        left: 90px;
+    }
+
+    .main > a {
+        font-size: 8.5px;
+    }
+
+    .main {
+        margin: 0 5px;
+    }
+
+    #icon {
+        position: absolute;
+        left: 40%;
+        top: 70px;
+    }
+
+    .menu {
+        z-index: 1;
+    }
+
+    .li-2 {
+        width: 40px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .submenu {
+        position: absolute;
+        left: -30px;
+    }
+
+    #img1 {
+        height: 200px;
+    }
+
+    .wrap {
+        flex-direction: column;
+    }
+
+    .col-s {
+        width: 375px;
+    }
+
+    .img2 {
+        width: 375px;
+    }
+
+    .i-2 {
+        transform: scale(1);
+    }
+
+    .col {
+        width: auto;
+    }
+
+    .wrap-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .glide__arrow {
+        visibility: visible;
+        transition: none;
+    }
+
+    .article-item-normal-2 {
+        display: none;
+    }
+
+    .glide__slide:hover .article-item-normal{
+        visibility: visible;
+    }
+
+    .glide__slides {
+        width: 375px;
+    }
+
+    .glide__slide {
+        width: 375px;
+    }
+    .img-4 {
+        width: 375px;
+    }
+
+    .content-email-p{
+        font-size: 13.5px;
+    }
+
+    .btn-submit {
+        width: auto;
+    }
+
+    .input-submit {
+        width: auto;
+    }
+
+    .content-p:hover {
+        padding: 3px 0;
+        background-color: white;
+    }
+
+    .content-p:hover .icon {
+        color: #86590d;
+        padding: 0px 20px;
+        transition: none;
+        transform: none;
+    }
+
+    .content-p:hover .btn-content {
+        border-right: 1px solid #86590d;
+        padding: 5px 15px;
+        transform: none;
+        transition: none;
+    }
+
+    .tooltiptext {
+        visibility: visible;
+    }
+}
